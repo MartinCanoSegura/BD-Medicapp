@@ -1,0 +1,20 @@
+POST  http://localhost:8080/oauth/token
+
+autorization: 
+Type: Basic Auth
+Username: mitomediapp
+Password: mito89codex
+
+Body:  *x-www-form-urlencoded
+grant_type: password
+username: mitotest21@gmail.com
+password: 123
+
+
+
+-------------------------- peticiones postman con seguridad --------------------
+
+GET http://localhost:8080/consultas/generarReporte
+Headers:
+KEY: Authorization
+VALUE: bearer <token>

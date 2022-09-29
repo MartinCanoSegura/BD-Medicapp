@@ -1,0 +1,4 @@
+INSERT INTO signos (id_signos, fecha, pulso, ritmo, temperatura, id_paciente) VALUES (1, '2022-07-01 02:04:07', '110', '99', '34', 6);
+INSERT INTO signos (id_signos, fecha, pulso, ritmo, temperatura, id_paciente) VALUES (2, '2022-07-01 02:04:07', '120', '110', '35', 6);
+INSERT INTO signos (id_signos, fecha, pulso, ritmo, temperatura, id_paciente) VALUES (3, '2022-07-01 02:04:07', '99', '88', '45', 6);
+INSERT INTO signos (id_signos, fecha, pulso, ritmo, temperatura, id_paciente) VALUES (1, '2022-07-01 02:04:07', '130', '100', '36', 7);

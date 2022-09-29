@@ -1,0 +1,42 @@
+{
+	"paciente" : {
+		"idPaciente" : 1
+	},
+	"medico" : {
+		"idMedico" : 1
+	},
+	"especialidad" : {
+		"idEspecialidad" : 1
+	},
+	"numConsultorio" : "C1",
+	"fecha" : "2022-06-25T12:08:00.000Z",
+	"detalleConsulta" : [
+		{"diagnostico" : "FIEBRE", "tratamiento" : "PARACETAMOL"},
+		{"diagnostico" : "AMIGDALITIS", "tratamiento" : "ANTIBIOTICOS"}
+	]
+}
+
+-------------------------------------------------
+{
+    "consulta" : {
+        "paciente" : {
+            "idPaciente" : 1
+        },
+        "medico" : {
+            "idMedico" : 1
+        },
+        "especialidad" : {
+            "idEspecialidad" : 1
+        },
+        "numConsultorio" : "C1",
+        "fecha" : "2022-06-25T12:08:00.000Z",
+        "detalleConsulta" : [
+            {"diagnostico" : "FIEBRE", "tratamiento" : "PARACETAMOL"},
+            {"diagnostico" : "AMIGDALITIS", "tratamiento" : "ANTIBIOTICOS"}
+        ]
+    },
+    "listExamen" : [
+        {"idExamen" : 1},
+        {"idExamen" : 2}
+    ]
+}

@@ -1,0 +1,32 @@
+{ path: 'signos', component: SignosComponent, children:[
+    { path: 'nuevo', component: SignosEdicionComponent },
+    { path: 'edicion/:idSignos', component: SignosEdicionComponent },
+    { path: 'nuevo-paciente', component: SignosDialogoPacienteComponent }
+  ], canActivate: [GuardService]
+  }
+
+security
+exit_to_app
+
+@GetMapping
+	public ResponseEntity<List<Paciente>> listar() throws Exception {
+		List<Paciente> lista = service.listar();
+		return new ResponseEntity<List<Paciente>>(lista, HttpStatus.OK);
+	}
+
+http://localhost:4200/especialidad
+http://localhost:4200/especialidad/nuevo
+http://localhost:4200/especialidad/edicion/1
+
+	path: 'especialidad', component: EspecialidadComponent, children: [
+      { path: 'nuevo', component: EspecialidadEdicionComponent },
+      { path: 'edicion/:id', component: EspecialidadEdicionComponent }
+
+routerLink="/especialidad/nuevo"
+ [routerLink]="['edicion', row.idEspecialidad]"
+
+http://localhost:4200/paciente/signos/1
+http://localhost:4200/paciente/signos/1/edicion/2
+
+
+

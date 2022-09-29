@@ -1,0 +1,8 @@
+INSERT INTO medico (id_medico, cmp, apellidos, foto_url, nombres) VALUES (3, '123456788', 'laure', 'https://www.eluniverso.com/resizer/B1PGGb6MaTVzQstULdDgzl-zxdY=/994x670/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/AQL7EUBHGRAJJGBWOBMECISNMY.jpg', 'House');
+INSERT INTO medico (id_medico, cmp, apellidos, foto_url, nombres) VALUES (4, '1234567', 'Diaz Mamacita', 'https://ktarsis.files.wordpress.com/2009/09/ktjennifermorrisonpic.jpg?w=584', 'Cameron');
+INSERT INTO medico (id_medico, cmp, apellidos, foto_url, nombres) VALUES (2, '123456789', 'Gomez Bolaños Chess', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ144IwL_b5kc5KxH76CMMLwmFD6bXBKzXDg&usqp=CAU', 'Chapatin');
+INSERT INTO medico (id_medico, cmp, apellidos, foto_url, nombres) VALUES (7, '192837465', 'DR', 'https://www.yotambien.mx/wp-content/uploads/2022/01/Doctor-Octopus-yotambienmx.jpg', 'Octopus');
+INSERT INTO medico (id_medico, cmp, apellidos, foto_url, nombres) VALUES (5, '1234767', 'Ranch', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScaINnsTQrsaszxJqZfCR6YllVMxRwkOqMSQ&usqp=CAU', 'Quinn');
+INSERT INTO medico (id_medico, cmp, apellidos, foto_url, nombres) VALUES (8, '198273645', 'Ratodimy', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTj8q6atBf9nTbitJms0W7cbpik7q9r4TqTQ&usqp=CAU', 'Franchesca');
+INSERT INTO medico (id_medico, cmp, apellidos, foto_url, nombres) VALUES (1, '123456789132', 'Stanger', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAYqq_jrUQ8T_-Bpilgr3TLPIj2-Xn5JcYJA&usqp=CAU', 'Stranger');
+INSERT INTO medico (id_medico, cmp, apellidos, foto_url, nombres) VALUES (9, '101010101010', 'Cano Segura', 'c:/users/mcs/pictures/mcs.png', 'Martin');

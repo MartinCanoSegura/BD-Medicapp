@@ -1,0 +1,14 @@
+CREATE OR REPLACE FUNCTION "public"."fn_sequence" (entiti character varying, primary_key character varying, foreing_key character varying, value_filter integer)  RETURNS TABLE(ultimo_r integer)
+  VOLATILE
+AS $body$
+declare var_r record;		
+	       BEGIN
+	       FOR var_r IN ( select max(primary_key) as ultimo from primary_key where foreing_key = value_filter )
+	       
+	       LOOP
+	          ultimo_r := var_r.ultimo;
+	               RETURN NEXT;
+	       END LOOP;
+		
+	END;
+$body$ LANGUAGE plpgsql
